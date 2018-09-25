@@ -1,0 +1,4 @@
+1.在packet包内添加自定义IQ包的类，例：RosterImageIQ.java
+2.在PacketParserUtils类内添加自定义IQ包的解析方法
+3.在Roster类内添加自定义IQ包的 1.过滤器 2.发送方法 3.监听
+4.在RosterListener类内添加阅读包过程，例：processRosterImage(RosterImageIQ packet){}
